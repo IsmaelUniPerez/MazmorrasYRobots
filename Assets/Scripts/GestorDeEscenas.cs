@@ -6,8 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class GestorDeEscenas : MonoBehaviour
 {
-    public void CargarEscena()
+    public void CargarEscenaJuego()
     {
         SceneManager.LoadScene(1);
+    }
+    public void CargarEscenaMenuPrincipal()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void SalirJuego()
+    {
+        UnityEngine.Debug.Log("Saliendo del juego");
+        UnityEngine.Application.Quit();
     }
 }
