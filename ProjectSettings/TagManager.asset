@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tanque
   - ZonaMuerte
+  - Meta
   layers:
   - Default
   - TransparentFX

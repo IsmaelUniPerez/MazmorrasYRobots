@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Respawn : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class Respawn : MonoBehaviour
             transform.position = posicionDeSpawn;
 
             transform.rotation = Quaternion.identity;
+        }
+        else if (col.gameObject.CompareTag("Meta"))
+        {
+            UnityEngine.Debug.Log("¡El tanque ha llegado a la meta!");
+            SceneManager.LoadScene(0);
         }
     }
 }
