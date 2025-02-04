@@ -2928,8 +2928,8 @@ GameObject:
   - component: {fileID: 1899469758}
   - component: {fileID: 1899469757}
   m_Layer: 0
-  m_Name: Meta
-  m_TagString: Meta
+  m_Name: Segundo Nivel
+  m_TagString: Segundo Nivel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

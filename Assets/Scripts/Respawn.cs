@@ -19,9 +19,14 @@ public class Respawn : MonoBehaviour
 
             transform.rotation = Quaternion.identity;
         }
+        else if (col.gameObject.CompareTag("Segundo Nivel"))
+        {
+            UnityEngine.Debug.Log("¡El tanque ha llegado al segundo nivel!");
+            SceneManager.LoadScene(2);
+        }
         else if (col.gameObject.CompareTag("Meta"))
         {
-            UnityEngine.Debug.Log("¡El tanque ha llegado a la meta!");
+            UnityEngine.Debug.Log("¡El tanque ha llegado a la meta final!");
             SceneManager.LoadScene(0);
         }
     }
