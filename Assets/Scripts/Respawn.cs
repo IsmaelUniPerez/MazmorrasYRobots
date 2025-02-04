@@ -26,7 +26,12 @@ public class Respawn : MonoBehaviour
         }
         else if (col.gameObject.CompareTag("Meta"))
         {
-            UnityEngine.Debug.Log("¡El tanque ha llegado a la meta final!");
+            UnityEngine.Debug.Log("¡El tanque ha llegado a la meta del nivel 2!");
+            SceneManager.LoadScene(3);
+        }
+        else if (col.gameObject.CompareTag("Finish"))
+        {
+            UnityEngine.Debug.Log("¡El tanque ha llegado a la meta del nivel de agua!");
             SceneManager.LoadScene(0);
         }
     }
