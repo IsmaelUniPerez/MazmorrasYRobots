@@ -14,6 +14,11 @@ public class GestorDeEscenas : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void CargarEscenaOpciones()
+    {
+        SceneManager.LoadScene(2);
+    }
     public void SalirJuego()
     {
         UnityEngine.Debug.Log("Saliendo del juego");
