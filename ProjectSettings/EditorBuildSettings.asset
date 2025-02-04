@@ -12,7 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenaPrincipal.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/EscenaEnElMar.unity
     guid: ae9a9dafd0a032d4ca9d523d38eff5c7
+=======
+    path: Assets/Scenes/EscenaSegunda.unity
+    guid: 315f34bd6066ac74ab56455b0056bee6
+>>>>>>> origin/RamaNivel2
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
